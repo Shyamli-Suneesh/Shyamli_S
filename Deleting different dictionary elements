@@ -1,0 +1,9 @@
+
+# Creating a dictionary 
+myDict = {1: 'Apple', 2: 'Orange', 3: 'Mango'} 
+
+# Using dictionary comprehension 
+for key in [key for key in myDict if key == 3]: del myDict[key] 
+
+# Modified Dictionary 
+print(myDict) 
